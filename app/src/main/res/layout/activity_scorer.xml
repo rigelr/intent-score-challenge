@@ -8,14 +8,14 @@
 
 
     <EditText
-        android:id="@+id/editText"
+        android:id="@+id/ETscorer"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginLeft="20dp"
         android:layout_marginRight="20dp"
         android:layout_marginTop="40dp"
         android:inputType="textPersonName"
-        android:text="Scorer Name"
+        android:hint="Scorer Name"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -24,12 +24,14 @@
         android:id="@+id/button"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
         android:layout_marginLeft="20dp"
+        android:layout_marginTop="84dp"
         android:layout_marginRight="20dp"
-        android:text="Button"
+        android:text="SUBMIT"
+        android:onClick="handleScorerOK"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.95"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editText" />
+        app:layout_constraintTop_toBottomOf="@+id/ETscorer" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
